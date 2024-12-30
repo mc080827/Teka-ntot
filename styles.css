@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+#game-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  margin-bottom: 20px;
+}
+#game-info {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+#question {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+#choices button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1em;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#choices button:hover {
+  background: #0056b3;
+}
+#feedback {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #218838;
+}
+#restart-btn {
+  background: #dc3545;
+}
+#restart-btn:hover {
+  background: #c82333;
+}
